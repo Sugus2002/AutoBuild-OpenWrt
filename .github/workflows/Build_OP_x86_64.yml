@@ -30,7 +30,13 @@ jobs:
         sudo rm -rf \
           /usr/share/dotnet \
           /usr/local/lib/android \
+          /opt/hostedtoolcache/CodeQL \
+          /usr/local/.ghcup \
+          /usr/share/swift \
+          /usr/local/lib/node_modules \
           /usr/local/share/boost \
+          /usr/local/share/powershell \
+          /usr/local/lib/heroku \
           $AGENT_TOOLSDIRECTORY \
           /opt/ghc \
           /etc/mysql \
